@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #27292D;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    font-family: sans-serif;
+    width: 810px;
+    height: 520px;
+    background-color: #1F2024;
+    margin: auto;
+    top: 10%;
+    padding-top: 10px;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: #43444b;
+    position: relative;
+    box-sizing: border-box; 
+}
+
+/* Styling for the header of the body */
+
+#sub-header{
+    background-color: #1F2024;
+    height: 55px;
+    width: 730px;
+    margin: auto;
+    margin-top: 2%;
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    color: #C0372E;
+    box-sizing: border-box;
+    position: relative;
+    border-bottom: 2px solid;
+    border-color: #43444b;
+    box-sizing: border-box;
+}
+
+#sub-header p{
+    margin: 0;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#right-text{
+    margin: 0;
+    display: inline;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+#right-text li {
+    display: inline;
+    padding-right: 15px;
+}
+
+#right-text li:last-child {
+    color: white;
+}
+
+/* Styling for the container body */
+
+#sub-body {
+    height: 400px; 
+    width: 730px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.pane {
+    background-color: #1F2024;
+    width: 50%;
+    height: 100%;
+}
+
+#left-pane  {
+    display: flex;
+    flex-direction: column;
+}
+
+.front-img {
+    height: 50%;
+    width: 100%;
+    background: url(./img/black_jack.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+#rating p{
+    font-size: 20px;
+    border: 2px solid;
+    width: 40px;
+    padding: 5px;
+    text-align: center;
+    border-color: #60616a;
+    border-radius: 40px;
+    color: white;
+    margin-left: 305px;
+    /* margin-top: 10px; */
+}
+ 
+.btn {
+    outline: 0;
+    background: #C0372E;
+    height: 25px;
+    width: 70px;
+    border: 0;
+    border-radius: 30px;
+    color: white;
+    font-size: 10px;
+}
+#anime-btn {
+    margin-top: 90px;
+    margin-left: 280px;
+}
+
+#visit-post-btn{
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+}
+
+#left-paneDown {
+    display: flex;
+    flex-direction: column;
+}
+
+#movie-details{
+    display: flex; 
+    flex-direction: row;
+    padding-top: 10px;  
+}
+
+#movie-details div{
+    display: flex; 
+    flex-direction: row;
+    font-size: 10px;
+    color: white;
+    padding-right: 20px;
+    width: 100%;
+}
+
+/* mov */
+.left-details {
+    display: flex;
+}
+
+#username {
+    flex: 1;
+}
+
+.date #release-date {
+    flex: 3;
+    width: 100%;
+}
+
+#comment {
+    flex: 1;
+    color:#C0372E;
+}
+
+#reactions {
+    flex: 1;
+    width: 40px;
+    /* padding-left: 20px; */
+}
+
+#summary{
+    color: #b1b5c9;
+    font-size: 14px;
+    line-height: 20px;
+    height: 130px;
+}
+
+h2 {
+    color:white;
+}
+
+.icon{
+    /* padding-top: 3px; */
+    height: 11px;
+    width: 11px;
+    float: left;
+}
+
+.sub-detail {
+    float: left;
+} 
+
+#right-pane{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    width: 50%;
+    padding-left: 25px;
+}
+
+.preview-img{
+    height: 90px;
+    width: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    /* padding-bottom: 5px; */
+}
+
+.rightpane-movies {
+    display: flex;
+    flex-direction: row;
+    /* box-sizing: border-box; */
+    /* padding-right: 10px; */
+}
+
+.rightpane-movies div{
+    padding-right: 10px;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    color: #b1b5c9;
+    margin: 0;
+    margin-left: 2px;
+}
+
+.date_and_name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5px;
+    /* float: right; */
+    /* width: 223.2 */
+}
+.movie-title{
+    font-weight: bolder;
+    font-size: 16px;
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+}
+/* img {
+    object-fit: cover;
+} */
+0
